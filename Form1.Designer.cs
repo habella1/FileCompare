@@ -248,7 +248,7 @@
             btnRightDir.TabIndex = 4;
             btnRightDir.Text = "폴더선택";
             btnRightDir.UseVisualStyleBackColor = true;
-            btnRightDir.Click += btnCopyFromRight_Click;
+            btnRightDir.Click += btnRightDir_Click;
             // 
             // txtRightDir
             // 
@@ -276,6 +276,7 @@
             btnCopyFromRight.TabIndex = 2;
             btnCopyFromRight.Text = "<<<";
             btnCopyFromRight.UseVisualStyleBackColor = true;
+            btnCopyFromRight.Click += btnCopyFromRight_Click;
             // 
             // Form1
             // 
