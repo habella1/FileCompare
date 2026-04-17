@@ -8,7 +8,15 @@
 - 사용한 컨트롤: SplitContainer, Panel, Button, Label, ListView, textBox
 - 사용한 기술과 구현한 기능:
   - Visual Studio를 이용하여 UI 디자인
-	- 
+  - FolderBrowserDialog를 이용한 폴더 선택 기능 구현
+  - Directory 및 FileInfo 클래스를 활용한 파일 정보(이름, 크기, 수정 날짜) 추출
+  - ListView를 이용한 파일 목록 출력 및 SubItem을 통한 상세 정보 표시
+  - Dictionary 자료구조를 활용하여 양쪽 폴더의 파일 정보를 저장하고 비교 기능 구현
+  - OwnerDraw 기능을 사용하여 파일 상태에 따른 색상 표시 (동일 파일, 단독 파일, 변경된 파일 구분)
+  - 파일 비교 기능: 파일 존재 여부 및 크기 비교를 통해 동일/변경 파일 판별
+  - File.Copy()를 이용한 파일 복사 기능 구현
+  - MessageBox를 활용한 사용자 확인 기능 (덮어쓰기 여부 결정)
+  - File.GetLastWriteTime()을 이용한 수정 날짜 비교로 최신 파일 보호
 
 ---
 
@@ -32,7 +40,7 @@
 	textBox - 왼 -> txtLeftDir
 	textBox - 오 -> txtRightDir
 	ListView - 왼 -> lvwLeftDir
-	           - 오 -> lvwRightDir
+	         - 오 -> lvwRightDir
 
  ---
 
